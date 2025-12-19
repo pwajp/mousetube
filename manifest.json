@@ -1,7 +1,10 @@
 {
   "name": "MouseTube",
   "short_name": "MouseTube",
-  "description": "未ログインでチャンネル登録できる",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
   "icons": [
     {
       "src": "/images/icon-192.png",
@@ -13,9 +16,5 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "start_url": "/index.html",
-  "display": "standalone",
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff"
+  ]
 }
